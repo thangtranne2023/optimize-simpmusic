@@ -1,16 +1,16 @@
-# Nhạc Nhẽo
+# ZMusic
 
-Bản tùy chỉnh dựa trên SimpMusic, dành cho Android.
+ZMusic là bản tùy chỉnh dựa trên SimpMusic, dành cho Android.
 
 ## Tải xuống và cài đặt
 
-**[TẢI NHẠC NHẼO TẠI ĐÂY](https://github.com/thangtranne2023/optimize-simpmusic/releases/tag/release)**
+**[TẢI ZMUSIC TẠI ĐÂY](https://github.com/thangtranne2023/optimize-simpmusic/releases/tag/release)**
 
 1. Mở trang phát hành bằng liên kết phía trên.
 2. Tìm mục **Assets** ở cuối phần thông tin bản phát hành.
 3. Tải tệp APK phù hợp về điện thoại Android.
 4. Mở tệp APK vừa tải và chọn **Cài đặt**. Nếu Android yêu cầu quyền, cho phép trình duyệt hoặc ứng dụng quản lý tệp cài ứng dụng.
-5. Sau khi cài đặt xong, mở **Nhạc Nhẽo** để sử dụng.
+5. Sau khi cài đặt xong, mở **ZMusic** để sử dụng.
 
 > Chỉ tải APK từ trang phát hành chính thức của repository này. Nếu không thấy mục **Assets** hoặc không có tệp APK, bản phát hành hiện chưa cung cấp gói cài đặt.
 
