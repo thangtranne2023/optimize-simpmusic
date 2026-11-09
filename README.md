@@ -1,39 +1,16 @@
-<!-- Fork: download section for this fork. Everything below the line is the original README. -->
-# ZMUSIC— tải về / download
+# Nhạc Nhẽo
 
-### 👉 [**Bấm vào đây để tải về**](https://github.com/baotrq/simpmusic-bao-showcase/releases/latest) 👈
-
-**Cách cài (trên điện thoại Android):**
-
-1. Mở trang này **trên điện thoại** và bấm vào link ở trên để mở bản phát hành mới nhất.
-2. Kéo xuống mục **Assets** (bấm vào nếu đang đóng), tải file có đuôi `arm64-v8a.apk` (khoảng 30 MB), rồi bấm vào file đó (trong thông báo, hoặc mở ứng dụng **Tệp / Files → Tải xuống**).
-3. Nếu điện thoại hỏi có cho phép cài ứng dụng từ nguồn này không, chọn **Cài đặt** → bật **Cho phép từ nguồn này**, rồi quay lại.
-4. Bấm **Cài đặt**. Nếu Google Play Protect cảnh báo, chọn **Thêm chi tiết → Vẫn cài đặt**.
-5. Mở ứng dụng **Nhạc Nhẽo**. Khi có bản mới, ứng dụng sẽ tự hỏi để cập nhật lúc mở lên.
-
-**How to install (English):** open this page on an Android phone, tap the link above to open the latest release, download the `arm64-v8a.apk` file under **Assets** and open it, allow installing from this source if asked, and tap Install (choose "Install anyway" if Play Protect warns). The app appears as **Nhạc Nhẽo** and offers new versions by itself when opened.
-
-<sub>A personal build of [SimpMusic](https://github.com/maxrave-dev/SimpMusic) by baotrq. Android only. It installs next to the official SimpMusic app and keeps its own data. Older versions: [Releases](https://github.com/baotrq/simpmusic-bao-showcase/releases).</sub>
-
----
+Bản tùy chỉnh dựa trên SimpMusic, dành cho Android.
 
 <div align="center"> <img src="https://raw.githubusercontent.com/maxrave-dev/SimpMusic/dev/fastlane/metadata/android/en-US/images/featureGraphic.png"> <h1>SimpMusic</h1>  
 A FOSS YouTube Music client for Android and Desktop with many features from<br>Spotify, SponsorBlock, ReturnYouTubeDislike using Compose Multiplatform to develop.
 <br> 
 <br>
-<a href="https://github.com/maxrave-dev/SimpMusic/releases"><img src="https://img.shields.io/github/v/release/maxrave-dev/SimpMusic"></a> <a href="https://github.com/maxrave-dev/SimpMusic/releases"><img src="https://img.shields.io/github/downloads/maxrave-dev/SimpMusic/total"></a> <br> <br> <a href="https://trendshift.io/repositories/13482" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13482" alt="maxrave-dev%2FSimpMusic | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+  <br> <br> <a href="https://trendshift.io/repositories/13482" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13482" alt="maxrave-dev%2FSimpMusic | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 <br>
 <br>
 <a href="https://www.producthunt.com/products/simpmusic/reviews?utm_source=badge-product_rating&utm_medium=badge&utm_source=badge-simpmusic" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/product_rating.svg?product_id=903836&theme=dark" alt="SimpMusic - A&#0032;FOSS&#0032;YouTube&#0032;Music&#0032;client&#0032;for&#0032;Android&#0032;with&#0032;many&#0032;features | Product Hunt" style="width: 242px; height: 108px;" width="242" height="108" /></a>
 <br> 
-<h4>Download</h4>  
-<a href="https://apt.izzysoft.de/packages/com.maxrave.simpmusic/"><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" width="200"></a> 
-<a href="https://f-droid.org/en/packages/com.maxrave.simpmusic/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" width="200"></a> 
-<a href="https://www.openapk.net/simpmusic/com.maxrave.simpmusic/"><img src="https://www.openapk.net/images/openapk-badge.png" width="200"></a> 
-<a href="https://github.com/maxrave-dev/SimpMusic/releases"><img src="https://raw.githubusercontent.com/NeoApplications/Neo-Backup/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" width="200"></a> 
-<br><sub>On vivo phones, install <code>SimpMusic-full-vivo-*.apk</code> from <a href="https://github.com/maxrave-dev/SimpMusic/releases">Releases</a> for Origin Island and the music widget. It installs as a separate app and can't sit next to Spotify.</sub>
-<h4>Nightly Build</h4>  
-<a href="https://www.simpmusic.org/download/nightly"><img src="https://github.com/maxrave-dev/SimpMusic/actions/workflows/android.yml/badge.svg"></a><br/> <a href="https://www.simpmusic.org/download/nightly"><img src="https://raw.githubusercontent.com/NeoApplications/Neo-Backup/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" width="200"></a> 
 </div>  
 
 > SimpMusic is available on Desktop now!
@@ -139,11 +116,6 @@ I use [Sentry](http://sentry.io) crashlytics to catch all crashes in the Full ve
  If you don't want to be collected crash data, you must use FOSS version.
  
 ## Desktop app
-
-### Which file should I download?
-- For Windows: Download `SimpMusic-Windows-installer.zip`, unzip it and run `install.bat`.
-- For macOS (macOS 15 or newer): Download the file with extension `.dmg`.
-- For Linux: Download the file with extension `.AppImage` (all Linux distributions)
 
 ### Log in guide: https://www.simpmusic.org/blogs/en/how-to-log-in-on-desktop-app
 #### Discord login guide: https://gist.github.com/MarvNC/e601f3603df22f36ebd3102c501116c6
@@ -265,22 +237,4 @@ This project is tested with BrowserStack
 
 *This project is a part of SimpMusic.org Open-source project by me [maxrave-dev](https://github.com/maxrave-dev)*
 
-<div align="center">
 
-## 💖 Donate
-
-If you enjoy Nhạc Nhẽo, a small donation helps me keep updating it.<br />
-<sub>Nếu bạn thích Nhạc Nhẽo, một khoản ủng hộ nhỏ sẽ giúp mình tiếp tục cập nhật.</sub>
-
-<br />
-
-<img src="https://raw.githubusercontent.com/baotrq/simpmusic-bao-showcase/main/assets/donate-qr-clean.png" width="240" alt="Donation QR code for MoMo and Vietnamese banking apps" />
-
-<br />
-<br />
-
-<sub>Scan with MoMo or a Vietnamese banking app · Quét bằng MoMo hoặc ứng dụng ngân hàng</sub>
-
-</div>
-
-<!-- GitAds-Verify: 9788276LHF131ESPL12SWLJ8LACOJE89 -->
