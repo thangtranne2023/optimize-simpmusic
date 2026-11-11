@@ -4,7 +4,7 @@ ZMusic là bản tùy chỉnh dựa trên SimpMusic, dành cho Android.
 
 ## Tải xuống và cài đặt
 
-**[TẢI ZMUSIC TẠI ĐÂY](https://github.com/thangtranne2023/optimize-simpmusic/releases/tag/release)**
+**[TẢI ZMUSIC TẠI ĐÂY](https://github.com/thangtranne2023/optimize-simpmusic/releases/)**
 
 1. Mở trang phát hành bằng liên kết phía trên.
 2. Tìm mục **Assets** ở cuối phần thông tin bản phát hành.
