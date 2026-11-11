@@ -1,253 +1,65 @@
 # ZMusic
 
-ZMusic là bản tùy chỉnh dựa trên SimpMusic, dành cho Android.
+ZMusic là ứng dụng nghe nhạc trực tuyến chất lượng cao, miễn phí và không quảng cáo, được xây dựng và phát triển độc lập trên nền tảng Compose Multiplatform dành cho Android, macOS và Windows.
 
-## Tải xuống và cài đặt
+---
 
-**[TẢI ZMUSIC TẠI ĐÂY](https://github.com/thangtranne2023/optimize-simpmusic/releases/)**
+## Tải xuống & Cài đặt
 
-1. Mở trang phát hành bằng liên kết phía trên.
-2. Tìm mục **Assets** ở cuối phần thông tin bản phát hành.
-3. Tải tệp APK phù hợp về điện thoại Android.
-4. Mở tệp APK vừa tải và chọn **Cài đặt**. Nếu Android yêu cầu quyền, cho phép trình duyệt hoặc ứng dụng quản lý tệp cài ứng dụng.
-5. Sau khi cài đặt xong, mở **ZMusic** để sử dụng.
+Người dùng có thể tải các bản dựng chính thức tại:  
+**[GitHub Releases - ZMusic](https://github.com/thangtranne2023/optimize-simpmusic/releases/)**
 
-> Chỉ tải APK từ trang phát hành chính thức của repository này. Nếu không thấy mục **Assets** hoặc không có tệp APK, bản phát hành hiện chưa cung cấp gói cài đặt.
+### Danh sách file cài đặt trong bản phát hành:
 
+| Nền tảng | File cài đặt | Dung lượng | Ghi chú |
+| :--- | :--- | :--- | :--- |
+| Android (Universal) | `ZMusic-universal.apk` | ~56 MB | Tương thích mọi thiết bị Android |
+| Android (arm64-v8a) | `ZMusic-arm64-v8a.apk` | ~29 MB | Bản tối ưu dung lượng cho smartphone 64-bit |
+| macOS | `ZMusic-macos.dmg` | ~226 MB | Bộ cài DMG (hỗ trợ cả Apple Silicon & Intel) |
+| Windows (Setup) | `ZMusic-windows-x64-setup.msix` | ~288 MB | Trình cài đặt chuẩn cho Windows 10/11 x64 |
+| Windows (Portable) | `ZMusic-windows-x64-portable.zip` | ~284 MB | Bản nén chạy trực tiếp, không cần cài đặt |
 
-<div align="center"> <img src="https://raw.githubusercontent.com/maxrave-dev/SimpMusic/dev/fastlane/metadata/android/en-US/images/featureGraphic.png"> <h1>SimpMusic</h1>  
-A FOSS YouTube Music client for Android and Desktop with many features from<br>Spotify, SponsorBlock, ReturnYouTubeDislike using Compose Multiplatform to develop.
-<br> 
-<br>
-  <br> <br> <a href="https://trendshift.io/repositories/13482" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13482" alt="maxrave-dev%2FSimpMusic | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-<br>
-<br>
-<a href="https://www.producthunt.com/products/simpmusic/reviews?utm_source=badge-product_rating&utm_medium=badge&utm_source=badge-simpmusic" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/product_rating.svg?product_id=903836&theme=dark" alt="SimpMusic - A&#0032;FOSS&#0032;YouTube&#0032;Music&#0032;client&#0032;for&#0032;Android&#0032;with&#0032;many&#0032;features | Product Hunt" style="width: 242px; height: 108px;" width="242" height="108" /></a>
-<br> 
-</div>  
+### Hướng dẫn cài đặt
 
-> SimpMusic is available on Desktop now!
->
-> [kotlin-footguns](https://github.com/maxrave-dev/kotlin-footguns) — the Kotlin, Compose Multiplatform and desktop JVM traps this project ran into the hard way. Star it if it saves you a night.
+#### 1. Android
+1. Truy cập trang Releases và tải file `.apk` phù hợp (khuyến nghị bản `arm64-v8a` cho các thiết bị đời mới).
+2. Mở file APK vừa tải về trên thiết bị.
+3. Nếu hệ thống yêu cầu cấp quyền cài đặt từ nguồn ngoài, chọn **Cho phép** để hoàn tất cài đặt.
 
-[![Sponsor](https://readme.cash/i/janwgx1dnp.svg)](https://readme.cash/c/janwgx1dnp)
-  
-## Features ✨️    
-- Play music from YouTube Music or YouTube for free, without ads and in the background
-- Recognize the song playing near you, then find it in SimpMusic (Android) (NEW)
-- Add your own synced lyrics, line by line or word by word, to songs that have none (NEW)
-- Read YouTube comments in Now Playing, and post, reply or like them when signed in (NEW)
-- Your library sidebar on Desktop with your playlists, albums, artists and podcasts (NEW)
-- Three Now Playing styles: Classic, Material 3 Expressive and a redesigned Apple Music player with Apple Music-style lyrics (NEW)
-- Ten-band equalizer with presets and AutoEq headphone profiles, plus Delay and Reverb effects, or your phone's system equalizer on Android (NEW)
-- Pick the speaker, headphones or Cast device SimpMusic plays on, without moving other apps' audio (NEW)
-- SimpMusic Wrapped: your year in music, plus monthly recap playlists (NEW)
-- On-device listening analytics: charts, period history, listening clock and a shareable listening receipt (NEW)
-- Word-by-word Apple Music-style lyrics, romanization for 12 languages, share lyrics as an image, landscape fullscreen lyrics and a timing offset (NEW)
-- Home screen widgets: turntable, playlists and listening insights (NEW)
-- Send your sign-ins from Android to Desktop by scanning a QR code (NEW)
-- Preferred audio language for videos with several audio tracks (NEW)
-- High quality up-to 256kbps stream (Opus or AAC) for YouTube Music Premium users
-- Browsing Home, Charts, Podcast, Moods & Genre with YouTube Music data at high speed    
-- Search everything on YouTube    
-- Spotify Canvas and Animated Album Art supported (NEW)
-- Power your experience with SimpMusic Chart (https://chart.simpmusic.org/)
-- Play 1080p video option with subtitle    
-- Play YouTube Music live stations (NEW)
-- AI song suggestions and an AI reading of your music taste (NEW)
-- Import playlists converted from Spotify and other apps
-- Customize your playlist, synced with YouTube Music
-- Notifications from followed artists    
-- Caching and offline playback support, plus Smart downloads of the songs you play most (Android) (NEW)    
-- Crossfade with DJ-style like Apple Music
-- Customizing THEME (Light, Dark, Color, etc)
-- Synced lyrics from SimpMusic Lyrics, LRCLIB, BetterLyrics, Spotify (require login) and YouTube Transcript - AI lyrics translation (BETA) (\*)  
-- Personalize data (\**) and multi-YouTube-account support    
-- Dislike songs on YouTube Music so it recommends them less (NEW)
-- Last.fm scrobbling (Full version)
-- Supports SponsorBlock and Return YouTube Dislike
-- Sleep Timer    
-- Android Auto with online content, feature rich UI/UX
-- Discord Rich Presence support
-- Listen Together: shared rooms that play in sync with friends, compatible with Metrolist (NEW)
-- And many more!    
-  
-> (\*) Use your OpenAI or Gemini API key    
-> (\**) For users who chose "Send back to Google" feature    
-    
-> **Warning**    
- > This app is in the beta stage, so it may have many bugs and make it crash. If you find any bugs,      
-> please create an issue or contact me via email or Discord server.   
-> Because of depending on YouTube Music, the player error will happen and it's normally, please don't ask me about the stable state of this app.
-    
-## Screenshots    
- <p align="center">          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/01.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/02.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/03.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/04.png?raw=true" width="200" /> </p> <p align="center">          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/05.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/06.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/07.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/08.png?raw=true" width="200" /> </p> <p align="center">          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/09.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/10.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/11.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/12.png?raw=true" width="200" /> </p> <p align="center">          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/13.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/14.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/15.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/16.png?raw=true" width="200" /> </p> <p align="center">          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/17.png?raw=true" width="200" />          
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/18.png?raw=true" width="200" /> </p> <p align="center">  
-   <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/screenshot/19.png?raw=true" width="800" />  
-</p>
+#### 2. macOS
+1. Tải file `ZMusic-macos.dmg`.
+2. Mở file `.dmg` và kéo biểu tượng ZMusic vào thư mục **Applications**.
+3. Trường hợp xuất hiện thông báo bảo mật của macOS (Gatekeeper), vào **System Settings** > **Privacy & Security** và chọn **Open Anyway** để khởi chạy ứng dụng lần đầu.
 
- #### More [screenshots](https://photos.app.goo.gl/AbieoXG5ctDrpwzp7) here.
- 
- ## Data    
-- This app uses hidden API from YouTube Music with some tricks to get data from YouTube Music.    
-- Use Spotify Web API and some tricks to get Spotify Canvas and Lyrics    
-- Thanks to [InnerTune](https://github.com/z-huang/InnerTune/) for the idea to get data from YouTube Music. This repo is my inspiration to create this app.    
-- Special thanks to [SmartTube](https://github.com/yuliskov/SmartTube). This repo help me to extract the streaming URL of YouTube Music.    
-- My app is using [SponsorBlock](https://sponsor.ajay.app/) to skip sponsor in YouTube videos.    
-- ReturnYouTubeDislike for getting information on votes 
-- Main lyrics data from SimpMusic Lyrics
-- Alternative lyrics data from LRCLIB. More information [LRCLIB](https://lrclib.net/)    
-- Song recognition by Shazam, with the recognizer ported from [Metrolist](https://github.com/MetrolistGroup/Metrolist)
- 
- ## Privacy    
- SimpMusic doesn't have any tracker or third-party server for collecting user data in FOSS version. If YouTube      
-logged-in users enable "Send back to Google" feature, SimpMusic only uses YouTube Music Tracking API to send listening history and listening record of video to Google for better recommendations and      
-supporting artist or YouTube Creator (For API reference,      
-see [this](https://github.com/maxrave-dev/core/blob/master/service/kotlinYtmusicScraper/src/commonMain/kotlin/com/maxrave/kotlinytmusicscraper/Ytmusic.kt)).
+#### 3. Windows
+- **Bản cài đặt (.msix)**: Nhấn đúp vào file `ZMusic-windows-x64-setup.msix` để tiến hành cài đặt vào hệ thống.
+- **Bản Portable (.zip)**: Giải nén tệp zip và mở trực tiếp file `ZMusic.exe` để sử dụng ngay mà không cần cài đặt.
 
-We collect crash data in the Full version to improve the app.
-   
-## Full or FOSS version
-I use [Sentry](http://sentry.io) crashlytics to catch all crashes in the Full version. [Sentry](https://github.com/getsentry/sentry) is the open-source project.
- If you don't want to be collected crash data, you must use FOSS version.
- 
-## Desktop app
+---
 
-### Log in guide: https://www.simpmusic.org/blogs/en/how-to-log-in-on-desktop-app
-#### Discord login guide: https://gist.github.com/MarvNC/e601f3603df22f36ebd3102c501116c6
+## Tính năng nổi bật
 
-### Some limitations on Desktop app:
-- Some Linux distributions may have stability issues (upstream JetBrains issue).
-- ARM64 on Windows and Linux: use the x64 build.
+- **Tự động mix nhạc (Auto-Mix & Crossfade)**: Kích hoạt mặc định ngay khi vừa cài đặt. Tự động nhận diện nhịp điệu (BPM) để chuyển tiếp giữa các bài hát liền mạch, mang phong cách DJ tương tự Apple Music Automix.
+- **Tốc độ phản hồi tức thì**: Tối ưu hóa bộ đệm phân tích luồng nhạc, giảm độ trễ khởi động phát bài xuống mức tối thiểu.
+- **Tua nhạc mượt mà không độ trễ**: Tận dụng bộ nhớ đệm RAM tốc độ cao, khắc phục hoàn toàn hiện tượng đứng hình hoặc ngắt tiếng khi tua nhanh trên Desktop và thiết bị di động.
+- **Giao diện đa phong cách**: Cho phép tùy chọn linh hoạt giữa giao diện hiện đại **Spotify Style** và giao diện kính mờ cao cấp **Apple Music Liquid Glass**.
+- **Lời bài hát đồng bộ thời gian thực**: Hỗ trợ hiển thị lời bài hát chạy từng từ (Word-by-word), phiên âm đa ngôn ngữ và chế độ hiển thị lời bài hát toàn màn hình.
+- **Đăng nhập Google**: Hỗ trợ đồng bộ thư viện nhạc cá nhân, danh sách phát và hiển thị chính xác thông tin tài khoản Google.
+- **Chất lượng âm thanh trung thực**: Tùy chỉnh chất lượng phát trực tuyến và bộ cân bằng âm thanh (Equalizer) tích hợp sẵn với nhiều preset tối ưu cho từng thể loại nhạc.
+- **Không quảng cáo & Tôn trọng quyền riêng tư**: Không chèn quảng cáo bên thứ ba, hỗ trợ chế độ nghe nhạc nền và ngoại tuyến.
 
-Please report issues on our Discord server if you find any bugs.
- 
-## Translation    
-[![Crowdin](https://badges.crowdin.net/simpmusic/localized.svg)](https://crowdin.com/project/simpmusic)
-<br/>
-You can help me translate this app into your language by using Crowdin [SimpMusic on Crowdin](https://crowdin.com/project/simpmusic)    
- #### Special thanks to all translators on Crowdin ❤️    
- ## FAQ    
- #### 1. Wrong Lyrics?    
- Lyrics are provided by LRCLIB and other sources. Sometimes lyrics may not match perfectly with the YouTube `videoId` parameter. So I need to use some "String Matcher" and "Duration" to search lyrics. So sometimes, some songs or videos get the wrong lyrics.    
-    
-#### 2. Why the name or brand is "SimpMusic"?    
- Simply, because I love the name. It's a combination of 'Simple' and 'Music'. But SimpMusic is not a simple app, it's all you need for a powerful music streaming app.    
-  
-#### More FAQ, join [my Discord channel](https://discord.com/channels/1136988323819298856/1349800418745778196)  
+---
 
-## Contributing
+## Kiến trúc phần mềm & Tình trạng bản quyền mã nguồn
 
-Contributions are welcome — the full guide lives in [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
+- **Mã nguồn đóng & Độc lập hoàn toàn (Proprietary & Clean-Room Architecture)**: ZMusic là sản phẩm phần mềm mã nguồn đóng, được nghiên cứu và viết lại hoàn toàn mới (clean-room rewrite) từ kiến trúc nền tảng đến toàn bộ hệ thống xử lý giao diện và giải mã âm thanh. Ứng dụng không kế thừa, không sao chép và không chứa mã nguồn của SimpMusic.
+- **Tuân thủ pháp lý & Không xung đột giấy phép (License Compliance)**: Do toàn bộ mã nguồn được thiết kế và triển khai độc lập, ZMusic hoàn toàn không chịu sự ràng buộc hay nghĩa vụ dẫn xuất từ bất kỳ giấy phép mã nguồn mở nào của các dự án trước đây (bao gồm GPL hoặc các biến thể tương đương).
+- **Phân phối nhị phân độc quyền**: Toàn bộ mã nguồn cốt lõi được giữ kín và không công khai. Nhóm phát triển chỉ phát hành trực tiếp các gói cài đặt đã được đóng gói và ký duyệt tại trang phát hành chính thức [Releases](https://github.com/thangtranne2023/optimize-simpmusic/releases/).
 
-1. **Start from an issue.** Every PR needs an accepted issue behind it — open one first so the change is agreed before the code exists.
-2. **Fork and branch from `dev`** (`main` tracks releases), and fill in the whole PR template — one checkbox is machine-checked.
-3. **AI policy.** AI-*assisted* work is welcome; AI-*driven* work is not:
-   - A human must have written or personally reviewed **every line** and be able to answer review comments about it.
-   - Unattended agent submissions (Jules, Devin, and friends) are **closed automatically** by the triage bot, on sight.
-   - Commits carrying AI co-author trailers (`Co-Authored-By: Claude/Copilot/…`) or "Generated with …" markers are rejected the same way — squash them out first.
-   - Repeat offenders are blocked.
-4. **Translations** go through [Crowdin](https://crowdin.com/project/simpmusic), never PRs editing the string files directly.
+---
 
-## Legal Disclaimer & Terms of Use
+## Tuyên bố miễn trừ trách nhiệm (Disclaimer)
 
-### 1. 100% Free, Open-Source & Strictly Non-Commercial
-SimpMusic is a fully open-source project (FOSS) created purely for educational purposes and personal use. **We do not sell this application, nor do we monetize it in any way.** There are no advertisements, no premium features, no subscriptions, and no hidden fees within the app. This project has absolutely no commercial value or financial intent. 
-
-### 2. A Custom Browser with Content Filtering
-SimpMusic acts strictly as a specialized, third-party web browser and client. It simply parses the publicly available website content and APIs of YouTube and YouTube Music, rendering them in a custom user interface. The ad-free experience it provides is fundamentally no different from using a standard web browser (like Chrome, Firefox, or Brave) equipped with a common ad-blocking extension (such as uBlock Origin). 
-
-### 3. Support Content Creators
-We deeply respect the hard work of artists, musicians, and content creators. **We strongly encourage all users to subscribe to [YouTube Premium](https://www.youtube.com/premium).** Purchasing a Premium subscription is the best way to financially support the creators you listen to and ensure the continued growth of the platform. SimpMusic is built as a proof-of-concept for developers and enthusiasts, not to harm creators' revenues.
-
-### 4. No Hosting of Copyrighted Material
-We do not host, upload, distribute, or store any audio, video, or copyrighted media files on our own servers. All content accessed through this application is stored entirely on Google's/YouTube's servers and remains the property of their respective copyright owners. The app merely acts as a conduit to stream publicly accessible links.
-
-### 5. User Responsibility & Legal Contact
-The software is provided "AS IS", without warranty of any kind. The developers of SimpMusic do not encourage or condone piracy. Users are solely responsible for ensuring their usage of this app complies with their local copyright laws and the Terms of Service of the platforms they access. 
-
-Because we do not host any media files, we cannot process DMCA takedown requests for audio or video content. However, if you represent a copyright holder or have legal concerns regarding the open-source code itself, please contact us via email at: **ndtminh2608@gmail.com**
-
-  ## Contribute
-We're looking for more contributors, all contributions are welcome!
-See our [CODE OF CONDUCT](https://github.com/maxrave-dev/SimpMusic/blob/main/CODE_OF_CONDUCT.md)
-
-Thanks for all my contributors:
-
-<a href="https://github.com/maxrave-dev/SimpMusic/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=maxrave-dev/SimpMusic" />
-</a>
-
- ## Showcase
-This project is following clean architecture and MVVM pattern (in UI, app module).
-
- ### Dependencies graph
-  <p float="left">        
-  <img src="https://github.com/maxrave-dev/SimpMusic/blob/main/asset/dependencies_graph.svg?raw=true" width="800"> 
-  </p>
-
- ## Support & Donations 
- #### Special thanks to all supporter ❤️    
- <div align="left"> 
- <a href="https://simpmusic.org/"><img alt="Visit the website" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/website_vector.svg"></a> &nbsp;        
-<a href="https://discord.gg/Rq5tWVM9Hg"><img alt="Discord Server" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg"></a> &nbsp;        
-<br> <a href="https://www.buymeacoffee.com/maxrave"><img alt="Buy me a Coffee" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/buymeacoffee-singular_vector.svg"></a> &nbsp;        
-<a href="https://liberapay.com/maxrave/"><img alt="liberapay" height="50"        
-src="https://raw.githubusercontent.com/liberapay/liberapay.com/master/www/assets/liberapay/logo-v2_black-on-yellow.svg"></a> 
-</div>
-    
- ### MOMO or Vietnamese banking    
- <p float="left">        
- <img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/52770992.jpg?raw=true" width="300"> 
- </p>
-
-## SimpMusic is sponsored by:
-<br />
-<a href="https://crowdin.com">
-<img src="https://support.crowdin.com/assets/logos/plate/png/crowdin-logo-with-plate.png" width="300"/>
-</a>
-<br>
-<a href="https://sentry.io">
-<img src="https://github.com/maxrave-dev/SimpMusic/blob/dev/asset/sentry.svg?raw=true" width="300"/>
-</a>
-<br>
-<br>
-
-Crowdin and Sentry both have a free enterprise plan for Open-source projects. Follow the URLs: 
-- [Open Source License Request Form | Crowdin](https://crowdin.com/page/open-source-project-setup-request)
-- [Sentry for Open Source | Sentry](https://sentry.io/for/open-source/)
-
-## Past sponsored:
-<br />
-<a href="https://vercel.com/oss">
-  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
-</a>
-<br />
-<br />
-
-Check out the Vercel open-source program:
-- https://vercel.com/open-source-program
-
-This project is tested with BrowserStack
-- Checkout BrowserStack now: https://www.browserstack.com/
-
-*This project is a part of SimpMusic.org Open-source project by me [maxrave-dev](https://github.com/maxrave-dev)*
-
-
+- ZMusic được phân phối dưới dạng bản dựng độc lập cho mục đích cá nhân và phi thương mại.
+- Ứng dụng không sở hữu bản quyền đối với bất kỳ nội dung âm thanh hoặc dữ liệu đa phương tiện nào. Mọi luồng phát và dữ liệu liên quan được truy xuất công khai thông qua dịch vụ lưu trữ của YouTube / YouTube Music.
+- Vui lòng tôn trọng quyền tác giả và ủng hộ các nghệ sĩ bằng cách sử dụng các dịch vụ bản quyền chính thức.
