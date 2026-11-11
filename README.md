@@ -60,6 +60,6 @@ Người dùng có thể tải các bản dựng chính thức tại:
 
 ## 📜 Tuyên bố miễn trừ trách nhiệm (Disclaimer)
 
-- ZMusic được phân phối dưới dạng bản dựng độc lập cho mục đích cá nhân và phi thương mại.
+- ZMusic được phân phối dưới dạng bản dựng độc lập cho mục đích cá nhân và có thể thương mại trong tương lai.
 - Ứng dụng không sở hữu bản quyền đối với bất kỳ nội dung âm thanh hoặc dữ liệu đa phương tiện nào. Mọi luồng phát và dữ liệu liên quan được truy xuất công khai thông qua dịch vụ lưu trữ của YouTube / YouTube Music.
 - Vui lòng tôn trọng quyền tác giả và ủng hộ các nghệ sĩ bằng cách sử dụng các dịch vụ bản quyền chính thức.
