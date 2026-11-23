@@ -57,7 +57,7 @@ Người dùng có thể tải các bản dựng chính thức tại:
 
 ## ✨ Các tính năng đột phá & Nâng cấp (v1.3.0.2)
 
-### 🎧 1. AutoMix 3.0 Siêu Cấp (Vượt trội Apple Music Automix)
+### 🎧 1. AutoMix 3.0 Siêu Cấp (Vượt trội Music Automix)
 - **Triệt tiêu hoàn toàn hiện tượng đè giọng (Vocal Clashing Elimination)**:
   - Ứng dụng công nghệ **3-Stage Dynamic Acoustic DJ Filter**: kết hợp 2 tầng bộ lọc 4th-order (24 dB/octave) Butterworth LPF/HPF cùng 1 tầng Parametric Peaking EQ Dip Filter tại 1,800 Hz ($Q=1.0$).
   - Tự động hạ dải trung âm của bài cũ xuống tới $-8.5\text{ dB}$ ngay tại điểm mix, giúp giọng hát của bài mới bước vào trong trẻo, tách bạch 100%, không bị 2 bài đè giọng gây ồn hay mất kiểm soát.
